@@ -1,7 +1,10 @@
 
 import './App.css'
+
 import BookCard from './Components/BookCard'
+
 import capa_livro from './assets/cavernas_aco.jpg'
+
 function App() {
  
 
@@ -10,7 +13,7 @@ function App() {
       <div>
        <h1>Pw3-webapp-livraria </h1>
 
-        <BookCard 0
+      <BookCard 
        titulo='As Cavernas de aço'
        autor='Izac Azimov'
        imagem= {capa_livro}

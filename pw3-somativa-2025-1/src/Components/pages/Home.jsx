@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from 'react'
 import styles from './Home.module.css';
 
 const Home = ()=>{
@@ -9,7 +8,7 @@ const Home = ()=>{
 
             <h1>Bem vindo ao WEB APP<span>LIBRI</span></h1>
             <p>Comece a gerenciar os seus livros agora mesmo!</p>
-            <img  src="./Book_home.png" alt="" />
+            <img className='book_home' src="./Book_home.png" alt="" />
 
         </section>
 

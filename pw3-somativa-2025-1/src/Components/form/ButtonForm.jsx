@@ -1,5 +1,5 @@
-import style from './Button.module.css'
-const Button=  ({label})=>{
+import style from './ButtonForm.module.css'
+const ButtonForm=({label})=>{
     return(
 <div className={style.button_form}>
     <button>
@@ -8,4 +8,4 @@ const Button=  ({label})=>{
 </div>
     )
 }
-export default Button
+export default ButtonForm

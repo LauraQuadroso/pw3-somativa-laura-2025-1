@@ -1,6 +1,6 @@
 import styles from './Input.module.css';
 
-const Input = ({ type, name, id, placeholder, value }) => {
+const Input = ({ type, name, id, placeholder, value, handlerChange }) => {
     return (
         <div className={styles.form_control}>
             <label htmlFor={name}>{name}</label> 
@@ -11,6 +11,7 @@ const Input = ({ type, name, id, placeholder, value }) => {
                 id={id}
                 placeholder={placeholder}
                 value={value}
+                onChange={handlerChange}
             />
         </div>
     );

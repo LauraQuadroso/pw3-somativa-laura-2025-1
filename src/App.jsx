@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
@@ -40,6 +41,25 @@ function App() {
         </BrowserRouter>
 
       </div>
+=======
+
+import './App.css'
+
+import NavBar from './Components/layout/NavBar'
+
+
+function App() {
+ 
+
+  return (
+    <>
+      <div>
+       
+        <NavBar />
+      
+      </div>
+      
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
     </>
   )
 }

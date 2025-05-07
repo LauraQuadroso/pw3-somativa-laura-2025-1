@@ -1,11 +1,18 @@
 .navbar{
     display: flex;
+<<<<<<< HEAD
     /* flex-direction: column; */
+=======
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
     justify-content: space-between;
     background-color: #000154;
     padding: 1em;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
 .list{
     display: flex;
     list-style: none;
@@ -15,7 +22,11 @@
 
 .item{
     margin-right: 1em;
+<<<<<<< HEAD
     color: #FFF;
+=======
+    color: #fff;
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
 }
 
 
@@ -31,4 +42,8 @@
 
 .logo{
     width: 120px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
 }

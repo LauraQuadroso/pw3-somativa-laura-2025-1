@@ -1,12 +1,21 @@
 .buttonContainer{
   width: 100%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
 button{
   width: 100%;
   font-family: Helvetica;
   border: 1px solid #FFF;
   border-radius: 5px;
+<<<<<<< HEAD
   background: linear-gradient(180deg, rgba(17,179,53,0.9940709560191264) 0%, rgba(19,215,2,1) 100%);
   color: #FFF;
+=======
+
+  background: linear-gradient(180deg, rgba(17,179,53,0.9940709560191264) 0%, rgba(19,215,2,1) 100%);
+  color: black;
+>>>>>>> 920ec46ce5f39d33c98d1981592ab18668d97da2
 }
